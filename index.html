@@ -9,8 +9,11 @@
       height: 150px;
       font-size: 15px;
       font-family: 'Noto Sans JP';
+      align-content: center;
       cursor: url(https://ldstabler.github.io/start/link.png),auto;
-      border-radius: 4px;
+      border-width: 1px;
+      border-radius: 8px;
+      margin: 5px;
     }
     h2{
       font-family: 'Open Sans';
@@ -22,19 +25,27 @@
     img{
       width: 40%;
     }
+    .divctr {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 70%;
+    }
   </style>
   <body>
     <h2>Apps</h2>
-    <center>
-      <a href="https://wakeid.wcpss.net/"><button><center><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"></center>WakeID</button></a>
-    <a href="https://myapplications.microsoft.com/"><button><center><img src="https://myapplications.microsoft.com/favicon.ico"/></center>Microsoft Apps</button></a>
-    <a href="https://wcpss.net"><button><center><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/></center>WCPSS Site</button></a>
-    <a href="https://drive.google.com"><button><center><img src="https://drive.google.com/favicon.ico"/></center>Google Drive</button></a>
-    <a href="https://slides.google.com"><button><center><img src="https://ssl.gstatic.com/docs/presentations/images/favicon5.ico"/></center>Google Slides</button></a>
-    <a href="https://docs.google.com"><button><center><img src="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"/></center>Google Docs</button></a>
-    <a href="https://sheets.google.com"><button><center><img src="https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"/></center>Google Sheets</button></a>
-    <a href="https://outlook.office.com/owa/wcpss.net"><button><center><img src="https://outlook.office.com/mail/favicon.ico"/></center>Outlook</button></a>
-    <a href="https://onedrive.com"><button><center><img src="https://onedrive.com/favicon.ico"/></center>OneDrive</button></a>
-    </center>
+        <div class="divctr">
+            <a href="https://wakeid.wcpss.net/" target="_blank"><button><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/><p>WakeID</p></button></a>
+            <a href="https://myapplications.microsoft.com/" target="_blank"><button><img src="https://myapplications.microsoft.com/favicon.ico"/><p>Microsoft Apps</p></button></a>
+            <a href="https://wcpss.net" target="_blank"><button><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/><p>WCPSS Site</p></button></a>
+            <a href="https://drive.google.com" target="_blank"><button><img src="https://drive.google.com/favicon.ico"/><p>Google Drive</p></button></a>
+            <a href="https://docs.google.com" target="_blank"><button><img src="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"/><p>Google Docs</p></button></a>
+            <a href="https://sheets.google.com" target="_blank"><button><img src="https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"/><p>Google Sheets</p></button></a>
+            <a href="https://outlook.office.com/owa/wcpss.net" target="_blank"><button><img src="https://outlook.office.com/mail/favicon.ico"/><p>Outlook</p></button></a>
+            <a href="https://slides.google.com" target="_blank"><button><img src="https://ssl.gstatic.com/docs/presentations/images/favicon5.ico"><p>Google Slides</p></button></a>
+            <a href="https://onedrive.com" target="_blank"><button><img src="https://onedrive.com/favicon.ico"/><p>OneDrive</p></button></a>
+        </div>
   </body>
 </html>
