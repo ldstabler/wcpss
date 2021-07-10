@@ -1,3 +1,4 @@
+
 <!doctype HTML>
 <html>
   <title>Portal</title>
@@ -34,18 +35,23 @@
         width: 70%;
     }
   </style>
+  <script>
+      function NewTab(url) {
+          window.open(url,"_blank");
+      }
+  </script>
   <body>
     <h2>Apps</h2>
         <div class="divctr">
-            <a href="https://wakeid.wcpss.net/" target="_blank"><button><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/><p>WakeID</p></button></a>
-            <a href="https://myapplications.microsoft.com/" target="_blank"><button><img src="https://myapplications.microsoft.com/favicon.ico"/><p>Microsoft Apps</p></button></a>
-            <a href="https://wcpss.net" target="_blank"><button><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/><p>WCPSS Site</p></button></a>
-            <a href="https://drive.google.com" target="_blank"><button><img src="https://drive.google.com/favicon.ico"/><p>Google Drive</p></button></a>
-            <a href="https://docs.google.com" target="_blank"><button><img src="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"/><p>Google Docs</p></button></a>
-            <a href="https://sheets.google.com" target="_blank"><button><img src="https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"/><p>Google Sheets</p></button></a>
-            <a href="https://outlook.office.com/owa/wcpss.net" target="_blank"><button><img src="https://outlook.office.com/mail/favicon.ico"/><p>Outlook</p></button></a>
-            <a href="https://slides.google.com" target="_blank"><button><img src="https://ssl.gstatic.com/docs/presentations/images/favicon5.ico"><p>Google Slides</p></button></a>
-            <a href="https://onedrive.com" target="_blank"><button><img src="https://onedrive.com/favicon.ico"/><p>OneDrive</p></button></a>
+            <button onclick="NewTab('https://wakeid.wcpss.net/')"><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/><p>WakeID</p></button>
+            <button onclick="NewTab('https://myapplications.microsoft.com/')"><img src="https://myapplications.microsoft.com/favicon.ico"/><p>Microsoft Apps</p></button>
+            <button onclick="NewTab('https://wcpss.net')"><img src="https://filescdn.classlink.com/resources/customlinks/1594043732439-5259044b3a78a961ce9708f7a2fecf04.png"/><p>WCPSS Site</p></button>
+            <button onclick="NewTab('https://drive.google.com')"><img src="https://drive.google.com/favicon.ico"/><p>Google Drive</p></button>
+            <button onclick="NewTab('https://docs.google.com')"><img src="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"/><p>Google Docs</p></button>
+            <button onclick="NewTab('https://sheets.google.com')"><img src="https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"/><p>Google Sheets</p></button>
+            <button onclick="NewTab('https://outlook.office.com/owa/wcpss.net')"><img src="https://outlook.office.com/mail/favicon.ico"/><p>Outlook</p></button>
+            <button onclick="NewTab('https://slides.google.com')"><img src="https://ssl.gstatic.com/docs/presentations/images/favicon5.ico"><p>Google Slides</p></button>
+            <button onclick="NewTab('https://onedrive.com')"><img src="https://onedrive.com/favicon.ico"/><p>OneDrive</p></button>
         </div>
   </body>
 </html>
